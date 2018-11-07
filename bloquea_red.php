@@ -9,7 +9,7 @@
     $username = $alumnos[$pos][1];
     $password = $alumnos[$pos][2];
     $server = $alumnos[$pos][3];
-
+    //todo: use a variable instead a hardcoded string for alumnado.
     $command = "echo " . $password . "  | sudo -S iptables -A OUTPUT -p all -m owner --uid-owner alumnado -j DROP";
 
     $ssh = new Net_SSH2($server);
