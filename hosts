@@ -1,0 +1,42 @@
+127.0.1.1	localhosts
+127.0.1.1	HP7700
+127.0.1.1	www.youtube.com
+127.0.1.1	www.es-es.facebook.com
+127.0.1.1	www.facebook.com
+127.0.1.1	www.instagram.com
+127.0.1.1	www.instagram.es
+127.0.1.1	web.whatsapp.com
+127.0.1.1	www.proxysite.com
+127.0.0.1	https://hide.me
+127.0.1.1	www.hidemyna.me
+127.0.1.1	www.hidester.com
+127.0.1.1	www.hidemyass.com
+127.0.1.1	www.paisdelosjuegos.es
+127.0.1.1	www.paisdelosjuegos.com
+127.0.1.1	35.237.145.81
+127.0.1.1	www.juegos.com
+127.0.1.1	juegos.com
+127.0.1.1	www.juegosjuegos.com
+127.0.1.1	www.minijuegos.com
+127.0.1.1	paisdelosjuegos.es
+127.0.1.1	www.1001juegos.com
+127.0.1.1	104.20.78.40
+127.0.1.1	104.20.78.40
+127.0.1.1	https://futboltenerife.com
+127.0.1.1	www.futboltenerife.com
+127.0.1.1	futboltenerife.com
+127.0.1.1	217.160.0.216
+127.0.1.1	https://www.futboltenerife.com
+127.0.1.1	www.macrojuegos.com
+127.0.1.1	macrojuegos.com
+127.0.1.1	hoopgame.net
+127.0.1.1	https://hoopgame.net
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+
