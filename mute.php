@@ -1,4 +1,6 @@
 <?php
+
+// Para el correcto funcionamiento del silenciador es necesario que exista el fichero mute.sh en el equipo que se accede de manera remota.
   $nombre = $_GET["ip"];
 
     include('Net/SSH2.php');
