@@ -10,6 +10,8 @@
     $password = $alumnos[$pos][2];
     $server = $alumnos[$pos][3];
 
+     //TODO: 
+    // alumnado es la cuenta de los alumnos (sin privilegios), sustituir por una variable
     $command = "echo " . $password . "  | sudo -S iptables -D OUTPUT -p all -m owner --uid-owner alumnado -j DROP";
 
     $ssh = new Net_SSH2($server);
