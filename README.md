@@ -12,7 +12,9 @@ Por otro lado existe un array denominado "$alumnos" en el podemos incorporar a t
 
 Habrá que modificar los datos para que correspondan con los adecuados, en caso de tener diferentes contraseñas y usuarios en los equipos se puede modificar en este array.
 
+# Silenciar equipo
 
+Para poder silenciar un ordenador de un alumno, es necesario copiar el script mute.sh en la carpeta home del usuario configurado para el acceso remoto
 
 
 # Agradecimientos
