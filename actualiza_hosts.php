@@ -2,6 +2,7 @@
 	include('Net/SFTP.php');
 	include_once("config.php");
 
+	//gets the content of the hosts file that is in the current folder.
 	$hostsFile = file_get_contents('hosts');
 
 	$pos = $_GET["pos"]; 
@@ -15,9 +16,9 @@
 	    exit('Login Failed');
 	}
 
-//	echo $sftp->pwd() . "\r\n";
+	//copy the file in the remote PC
 	$sftp->put('/etc/hosts', $hostsFile);
-//	print_r($sftp->nlist());
+
 
 	echo "Se ha actualizado el bloqueo de webs al alumno: "  . $nombreAlumno . "<br>";
 	echo "<a href='index.php'>Volver</a>";
