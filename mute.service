@@ -1,0 +1,13 @@
+[Unit]
+Description=Mute
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=profesorado
+ExecStart=/home/profesorado/boot_infinite_mute.sh
+
+[Install]
+WantedBy=multi-user.target
