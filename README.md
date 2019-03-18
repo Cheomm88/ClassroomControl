@@ -16,6 +16,10 @@ Habrá que modificar los datos para que correspondan con los adecuados, en caso 
 
 Para poder silenciar un ordenador de un alumno, es necesario copiar el script mute.sh en la carpeta home del usuario configurado para el acceso remoto
 
+# Silenciar equipo desde arranque 
+
+Es posible hacer que un ordeandor quede muteado desde el arranque para ello es necesario crear en /etc/systemd/system/ un servicio, puedes usar el mute.service de ejemplo.
+
 
 # Agradecimientos
 Esta aplicación es posible gracias a:
