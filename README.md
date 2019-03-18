@@ -20,6 +20,8 @@ Para poder silenciar un ordenador de un alumno, es necesario copiar el script mu
 
 Es posible hacer que un ordeandor quede muteado desde el arranque para ello es necesario crear en /etc/systemd/system/ un servicio, puedes usar el mute.service de ejemplo.
 
+Donde en User se usará el usuario en este caso era profesorado el usuario ROOT del sistema y en ExecStart pondremos la ruta al script de iniciado del silenciado infinito que es boot_infinite_mute.sh
+
 
 # Agradecimientos
 Esta aplicación es posible gracias a:
