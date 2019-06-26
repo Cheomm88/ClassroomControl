@@ -18,8 +18,9 @@
 #amixer set Master mute
 
 */
+//while true; do sudo amixer set Master mute;   done;  
 
-    $command = 'echo ' .$password.' | sudo -S ./mute.sh';
+    $command = 'echo ' .$password.' |while true; do sudo -S amixer set Master mute;   done;';
     $ssh = new Net_SSH2($server);
     if (!$ssh->login($username, $password)) {
         exit('Login Failed');
@@ -28,7 +29,7 @@
 
    echo "Se procede a silenciar el sonido en el equipo de " . $nombreAlumno  . "<br>";
 
-   echo $ssh->exec($command);
+   $ssh->exec($command);
 
    echo "<br> <a href='index.php' >Volver</a>";
 

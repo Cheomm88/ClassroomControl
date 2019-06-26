@@ -16,6 +16,10 @@
 	    exit('Login Failed');
 	}
 
+
+	//copy the file in the remote PC
+	$sftp->delete('/etc/hosts', false);
+
 	//copy the file in the remote PC
 	$sftp->put('/etc/hosts', $hostsFile);
 

@@ -27,6 +27,7 @@
       <th scope="col">Sonido</th> 
       <th scope="col">Bloquear Internet</th>
       <th scope="col">Desbloquear Internet</th>
+      <th scope="col">Actualiza HOST</th>
     </tr>
   </thead>
 
@@ -41,9 +42,9 @@
 			echo '<td><a href="./cerrar_nav.php?pos=' .$i .' ">Cerrar</a></td>';
 			echo '<td><a href="./apaga.php?pos=' .$i .' ">Apaga</a></td>';
 			echo '<td><a href="./mute.php?pos=' .$i .' ">Silenciar</a></td>';
-			//echo '<td><a href="./actualiza_hosts.php?pos=' .$i .' ">Actualizar</a></td>';
 			echo '<td><a href="./bloquea_red.php?pos=' .$i .' ">Bloquea</a></td>';
 			echo '<td><a href="./desbloquea_red.php?pos=' .$i .' ">Desbloquea</a></td>';
+			echo '<td><a href="./actualiza_hosts.php?pos=' .$i .' ">Actualizar</a></td>';
 			echo "</tr>";
 		}
 	?>

@@ -10,7 +10,7 @@
     $password = $alumnos[$pos][2];
     $server = $alumnos[$pos][3];
 
-    $command = "echo " . $password . "  | sudo -S pkill chromium | sudo -S pkill firefox";
+    $command = 'echo "' . $password . '" | sudo -S pkill chrom* | sudo -S pkill firefox';
 
     $ssh = new Net_SSH2($server);
     if (!$ssh->login($username, $password)) {
